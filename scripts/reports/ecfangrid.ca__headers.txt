@@ -1,0 +1,8 @@
+HTTP/2 200 
+x-powered-by: PHP/5.6.40
+set-cookie: _csrf=262bb2a65122e05406d432e66b01076d26cb8dce410e49ce6dcfe6d0534e01e8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224j5YMwz8FmOt2GNw3qdhOFZ7XNQW1-si%22%3B%7D; path=/; httponly
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+date: Tue, 01 Oct 2024 19:22:22 GMT
+server: Apache
+

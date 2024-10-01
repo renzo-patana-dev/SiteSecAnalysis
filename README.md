@@ -28,9 +28,26 @@ Utilizando herramientas profesionales como **Google Lighthouse**, **OWASP** , y 
 
 - `/reports`: Informes detallados de cada auditoría de seguridad.
 - `/tools`: Documentación de las herramientas utilizadas en los análisis.
+- `/scripts`: Scripts personalizados para automatizar las auditorías análisis
+ de cabeceras.
 
 ## Objetivos:
 
 - Identificar y mitigar vulnerabilidades en sitios web.
 - Mejorar la ciberseguridad mediante auditorías regulares.
 - Compartir buenas prácticas de seguridad web.
+
+## Scripts
+
+### `/scripts/auditar_sitios.sh`
+
+Este script automatiza el análisis de los encabezados de seguridad de un sitio web. Utiliza `curl` para obtener los encabezados HTTP y guardar los resultados en un archivo de reporte.
+
+#### Descripción:
+- **Propósito**: Analiza las cabeceras HTTP del sitio para detectar posibles configuraciones inseguras.
+- **Salida**: Un archivo `.txt` en la carpeta `/scripts/reports/` que contiene los encabezados del sitio.
+- **Requisitos**: El script requiere `curl` instalado para realizar la solicitud HTTP.
+#### Uso:
+1. Navega al directorio `/scripts`:
+   ```bash
+   bash auditar_sitios.sh
